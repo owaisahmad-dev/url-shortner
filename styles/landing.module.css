@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.greet {
+  text-align: center;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+}
+
+.inputBox input {
+  line-height: 1.5;
+  padding: 5px;
+  width: 50%;
+  margin-right: 5px;
+}
+
+.inputBox button {
+  background: aquamarine;
+  outline: none;
+  border: 0
+}
+
+.inputBox button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.inputBox button:disabled {
+  background: gray;
+  color: white;
+}
+
+.resultBox {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
